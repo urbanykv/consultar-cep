@@ -3,8 +3,6 @@ const btnConsultar = document.querySelector('#btn');
 const btnApagar = document.querySelector('.clear');
 let resultadoConsulta = document.querySelector('.resultadoConsulta');
 
-const msgInicial = document.querySelector('#msgInicial')
-
 btnApagar.addEventListener('click', function clickApagar(){
     cep.value = '';
     resultadoConsulta.innerHTML = '';
