@@ -55,6 +55,24 @@ h1{
     font-size: 17px;
 }
 
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.clear{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.clear:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 80px;
+}
+
 #btn{
     background-color: rgb(40, 199, 40);
     color: white;
