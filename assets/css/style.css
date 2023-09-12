@@ -46,7 +46,7 @@ h1{
 
 #cep{
     width: 200px;
-    padding: 5px;
+    padding: 5px 15px;
     height: 25px;
     background-color: rgba(0, 0, 0, 0.24);
     border: none;
@@ -92,12 +92,19 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: white;
     width: 280px;
     height: 280px;
     border-radius: 15px;
     box-shadow: 1px 7px 17px black;
 }
+
+
+.cidade{
+    background-color: #c741f0;
+}
+
 
 #msgInicial{
     color: rgba(0, 0, 0, 0.603);
