@@ -26,7 +26,6 @@ btnConsultar.addEventListener('click', function consultar(){
         resultadoConsulta.innerHTML = '';
 
         if(dados.logradouro !== undefined){
-
             const endereço = document.createElement('p');
             const bairro = document.createElement('p');
             const cidadeUF = document.createElement('p');
